@@ -13,8 +13,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Marin Meze - FATMA TAŞKIRAN",
-  description: "Marin Meze website by FATMA TAŞKIRAN - Yapım Aşamasında",
+  title: "Marin Meze - Denizin Lezzetleri | FATMA TAŞKIRAN",
+  description: "Marin Meze - Sea Flavors, Masterpieces on Your Table. Fresh seafood and meze by FATMA TAŞKIRAN. Yapım Aşamasında.",
+  keywords: "seafood, meze, fish, shrimp, squid, mussels, Turkish food, marin meze",
 };
 
 export default function RootLayout({
