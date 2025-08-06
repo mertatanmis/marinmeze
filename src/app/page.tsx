@@ -159,7 +159,7 @@ export default function Home() {
   };
 
   return (
-    <main className="min-h-screen relative overflow-hidden text-white">
+    <main className="w-full h-screen fixed inset-0 overflow-hidden text-white">
       {/* Background Video */}
       <video 
         autoPlay 
