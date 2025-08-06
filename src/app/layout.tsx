@@ -11,6 +11,19 @@ export const metadata: Metadata = {
   title: "Marin Meze - Denizin Lezzetleri | FATMA TAŞKIRAN & SELİN ÖZCAN",
   description: "Marin Meze - Sea Flavors, Masterpieces on Your Table. Fresh seafood and meze by FATMA TAŞKIRAN & SELİN ÖZCAN. Yapım Aşamasında.",
   keywords: "seafood, meze, fish, shrimp, squid, mussels, Turkish food, marin meze, FATMA TAŞKIRAN, SELİN ÖZCAN",
+  openGraph: {
+    title: "Marin Meze - Denizin Lezzetleri | FATMA TAŞKIRAN & SELİN ÖZCAN",
+    description: "Marin Meze - Sea Flavors, Masterpieces on Your Table. Fresh seafood and meze by FATMA TAŞKIRAN & SELİN ÖZCAN. Yapım Aşamasında.",
+    url: "https://www.marinmeze.com",
+    siteName: "Marin Meze",
+    locale: "tr_TR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Marin Meze - Denizin Lezzetleri | FATMA TAŞKIRAN & SELİN ÖZCAN",
+    description: "Marin Meze - Sea Flavors, Masterpieces on Your Table. Fresh seafood and meze by FATMA TAŞKIRAN & SELİN ÖZCAN. Yapım Aşamasında.",
+  },
 };
 
 export default function RootLayout({
