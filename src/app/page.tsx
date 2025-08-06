@@ -6,7 +6,7 @@ export default function Home() {
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         {/* Background Pattern */}
-        <div className="sea-pattern">
+        <div className="absolute inset-0 opacity-10">
           <div className="absolute top-20 left-10 text-6xl animate-float">🐟</div>
           <div className="absolute top-40 right-20 text-4xl animate-float-delay-1">🦐</div>
           <div className="absolute bottom-40 left-20 text-5xl animate-float-delay-2">🦑</div>
@@ -22,7 +22,7 @@ export default function Home() {
               <div className="inline-flex items-center justify-center w-24 h-24 bg-gradient-to-br from-blue-500 to-teal-600 rounded-full mb-6 shadow-lg animate-float">
                 <span className="text-4xl">🌊</span>
               </div>
-              <h1 className="text-7xl font-bold gradient-text mb-4">
+              <h1 className="text-7xl font-bold bg-gradient-to-r from-blue-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent mb-4">
                 Marin Meze
               </h1>
               <p className="text-2xl text-gray-700 font-medium">
@@ -42,22 +42,22 @@ export default function Home() {
 
             {/* Food Categories */}
             <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-12">
-              <div className="food-card">
+              <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <div className="text-4xl mb-3 animate-float">🐟</div>
                 <h3 className="font-semibold text-gray-800">Balık</h3>
                 <p className="text-sm text-gray-600">Fresh Fish</p>
               </div>
-              <div className="food-card">
+              <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <div className="text-4xl mb-3 animate-float-delay-1">🦐</div>
                 <h3 className="font-semibold text-gray-800">Karides</h3>
                 <p className="text-sm text-gray-600">Shrimp</p>
               </div>
-              <div className="food-card">
+              <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <div className="text-4xl mb-3 animate-float-delay-2">🦑</div>
                 <h3 className="font-semibold text-gray-800">Kalamar</h3>
                 <p className="text-sm text-gray-600">Squid</p>
               </div>
-              <div className="food-card">
+              <div className="bg-white bg-opacity-80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1">
                 <div className="text-4xl mb-3 animate-float">🦪</div>
                 <h3 className="font-semibold text-gray-800">Midye</h3>
                 <p className="text-sm text-gray-600">Mussels</p>
@@ -80,7 +80,7 @@ export default function Home() {
             </div>
 
             {/* Contact Info */}
-            <div className="mt-12 bg-white/60 backdrop-blur-sm rounded-xl p-6 shadow-lg">
+            <div className="mt-12 bg-white bg-opacity-60 backdrop-blur-sm rounded-xl p-6 shadow-lg">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">İletişim / Contact</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-600">
                 <div className="flex items-center space-x-3">

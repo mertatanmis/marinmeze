@@ -8,20 +8,6 @@
   }
 }
 
-@layer components {
-  .food-card {
-    @apply bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-lg hover:shadow-xl transition-all duration-300 hover:-translate-y-1;
-  }
-  
-  .gradient-text {
-    @apply bg-gradient-to-r from-blue-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent;
-  }
-  
-  .sea-pattern {
-    @apply absolute inset-0 opacity-10;
-  }
-}
-
 @layer utilities {
   .animate-float {
     animation: float 6s ease-in-out infinite;
