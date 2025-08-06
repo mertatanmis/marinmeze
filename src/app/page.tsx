@@ -194,7 +194,7 @@ export default function Home() {
         playsInline
         controls={false}
         crossOrigin="anonymous"
-        src="/757932__timkahn__watrwave_waves-on-a-sandy-beach_tim-kahn_mkh80208030st.wav"
+        src="/ocean-waves.mp3"
       >
         Your browser does not support the audio element.
       </audio>
