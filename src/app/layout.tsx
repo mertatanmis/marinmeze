@@ -8,9 +8,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Marin Meze - Denizin Lezzetleri | FATMA TAŞKIRAN",
-  description: "Marin Meze - Sea Flavors, Masterpieces on Your Table. Fresh seafood and meze by FATMA TAŞKIRAN. Yapım Aşamasında.",
-  keywords: "seafood, meze, fish, shrimp, squid, mussels, Turkish food, marin meze",
+  title: "Marin Meze - Denizin Lezzetleri | FATMA TAŞKIRAN & SELİN ÖZCAN",
+  description: "Marin Meze - Sea Flavors, Masterpieces on Your Table. Fresh seafood and meze by FATMA TAŞKIRAN & SELİN ÖZCAN. Yapım Aşamasında.",
+  keywords: "seafood, meze, fish, shrimp, squid, mussels, Turkish food, marin meze, FATMA TAŞKIRAN, SELİN ÖZCAN",
 };
 
 export default function RootLayout({

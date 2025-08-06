@@ -229,28 +229,25 @@ export default function Home() {
             <h1 className="text-7xl md:text-8xl font-bold tracking-wider">
               Marin Meze
             </h1>
-            <div style={{ marginTop: '40px' }}>
+            <div style={{ marginTop: '16px' }}>
               <p className="text-2xl md:text-3xl font-semibold tracking-wide">
-                by FATMA TAŞKIRAN
-              </p>
-              <p className="text-2xl md:text-3xl font-semibold tracking-wide" style={{ marginTop: '16px' }}>
-                by SELİN ÖZCAN
+                by FATMA TAŞKIRAN &amp; SELİN ÖZCAN
               </p>
             </div>
           </div>
 
           {/* Tagline */}
-          <div className="text-shadow-elegant" style={{ marginTop: '60px' }}>
+          <div className="text-shadow-elegant" style={{ marginTop: '40px' }}>
             <p className="text-3xl md:text-4xl font-semibold italic">
               &quot;Denizin Lezzetleri, Sofranızın Şaheserleri&quot;
             </p>
-            <p className="text-2xl md:text-3xl font-semibold" style={{ marginTop: '20px' }}>
+            <p className="text-2xl md:text-3xl font-semibold" style={{ marginTop: '12px' }}>
               &quot;Sea Flavors, Masterpieces on Your Table&quot;
             </p>
           </div>
 
           {/* Food Categories */}
-          <div className="text-shadow-elegant" style={{ marginTop: '60px' }}>
+          <div className="text-shadow-elegant" style={{ marginTop: '40px' }}>
             {/* Top Center - Meze */}
             <div className="flex justify-center">
               <div className="text-center space-y-3">
@@ -260,7 +257,7 @@ export default function Home() {
             </div>
             
             {/* Other Categories Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-8" style={{ marginTop: '24px' }}>
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-8" style={{ marginTop: '16px' }}>
               <div className="text-center space-y-3">
                 <h3 className="text-3xl font-bold">Balık</h3>
                 <p className="text-xl font-semibold">Fresh Fish</p>
@@ -281,19 +278,19 @@ export default function Home() {
           </div>
 
           {/* Decorative Divider */}
-          <div className="flex items-center justify-center space-x-4" style={{ margin: '48px 0' }}>
+          <div className="flex items-center justify-center space-x-4" style={{ margin: '40px 0' }}>
             <div className="h-px w-48 bg-white/70"></div>
           </div>
 
           {/* Construction Notice */}
           <div className="bg-black/90 backdrop-blur-sm py-12 px-8 rounded-xl shadow-2xl max-w-2xl mx-auto text-shadow-elegant">
-            <h2 className="text-4xl font-bold">
+            <h2 className="text-5xl md:text-6xl font-extrabold tracking-wide">
               Bu site yakında hizmetinizde olacak
             </h2>
-            <p className="text-2xl font-semibold italic" style={{ marginTop: '24px' }}>
+            <p className="text-2xl font-semibold italic" style={{ marginTop: '16px' }}>
               &quot;Denizin derinliklerinden lezzetler geliyor...&quot;
             </p>
-            <p className="text-xl font-semibold" style={{ marginTop: '20px' }}>
+            <p className="text-xl font-semibold" style={{ marginTop: '12px' }}>
               This site will be available soon
             </p>
             <p className="text-lg font-semibold" style={{ marginTop: '16px' }}>
@@ -302,9 +299,9 @@ export default function Home() {
           </div>
 
           {/* Contact Info */}
-          <div className="text-center" style={{ marginTop: '60px' }}>
+          <div className="text-center" style={{ marginTop: '40px' }}>
             <h3 className="text-4xl font-extrabold tracking-wide text-white text-shadow-elegant">İletişim / Contact</h3>
-            <div style={{ marginTop: '24px' }}>
+            <div style={{ marginTop: '16px' }}>
               <div className="flex items-center justify-center space-x-10">
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-white">
                   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
@@ -314,7 +311,7 @@ export default function Home() {
                   info@marinmeze.com
                 </span>
               </div>
-              <div className="flex items-center justify-center space-x-10" style={{ marginTop: '20px' }}>
+              <div className="flex items-center justify-center space-x-10" style={{ marginTop: '12px' }}>
                 <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-white">
                   <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
                 </svg>
