@@ -27,7 +27,7 @@ export default function Home() {
           await audioRef.current.play();
           setAudioEnabled(true);
           console.log('🎵 AUDIO PLAYING AUTOMATICALLY!');
-        } catch (error) {
+        } catch (_error) {
           console.log('⚠️ Browser blocked autoplay, trying workaround...');
           
           // Workaround 1: Start muted then unmute
@@ -43,7 +43,7 @@ export default function Home() {
                 console.log('🎵 AUDIO UNMUTED AND PLAYING!');
               }
             }, 100);
-          } catch (secondError) {
+          } catch (_secondError) {
             console.log('⚠️ Trying Web Audio API workaround...');
             
             // Workaround 2: Web Audio API
@@ -61,7 +61,7 @@ export default function Home() {
                 oscillator.stop();
                 ultimateForcePlay();
               }, 100);
-            } catch (thirdError) {
+            } catch (_thirdError) {
               console.log('⚠️ All attempts failed, audio will play on any interaction');
               setAudioEnabled(false);
             }
@@ -90,7 +90,7 @@ export default function Home() {
           });
           document.body.dispatchEvent(syntheticTouch);
         }
-      } catch (e) {
+      } catch (_e) {
         console.log('Synthetic events not supported');
       }
     };
@@ -237,10 +237,10 @@ export default function Home() {
           {/* Tagline */}
           <div className="space-y-4 text-shadow-elegant">
             <p className="text-3xl md:text-4xl font-semibold italic">
-              "Denizin Lezzetleri, Sofranızın Şaheserleri"
+              &quot;Denizin Lezzetleri, Sofranızın Şaheserleri&quot;
             </p>
             <p className="text-2xl md:text-3xl font-semibold">
-              "Sea Flavors, Masterpieces on Your Table"
+              &quot;Sea Flavors, Masterpieces on Your Table&quot;
             </p>
           </div>
 
@@ -286,7 +286,7 @@ export default function Home() {
               Bu site yakında hizmetinizde olacak
             </h2>
             <p className="text-2xl font-semibold italic mb-6">
-              "Denizin derinliklerinden lezzetler geliyor..."
+              &quot;Denizin derinliklerinden lezzetler geliyor...&quot;
             </p>
             <p className="text-xl font-semibold">
               This site will be available soon
